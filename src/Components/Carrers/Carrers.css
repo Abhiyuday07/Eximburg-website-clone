@@ -1,0 +1,30 @@
+.careers-section {
+    background-image: url('https://www.eximburg.com/static/media/banner-bg-5.89155badb1e2a55408ee.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-banner {
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.careers-banner h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.careers-banner h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ff6600; 
+    margin-top: 0;
+}

@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #014D36; /* Green shade similar to the image */
+  }
+  
+  .line {
+    width: 60px;
+    height: 2px;
+    background-color: #014D36;
+    margin: 10px auto;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 2px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
+  .product-card {
+    width: 300px; /* Adjust to fit your layout */
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .product-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  

@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 50px; 
+    background-color: white;
+    height: 12vh;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 40px; 
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    flex: 1; 
+    gap: 30px; 
+    align-items: flex-start; 
+    cursor: pointer;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #006666; 
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6600; 
+  }
+  
+  .doc-icon {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  

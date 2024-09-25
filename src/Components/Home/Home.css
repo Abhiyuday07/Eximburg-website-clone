@@ -1,0 +1,60 @@
+.home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 80px; 
+}
+
+.text-content {
+    color: white;
+    max-width: 75%; 
+    text-align: left; 
+    margin-left: 20px; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 30px; 
+    text-transform: uppercase; 
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: rgb(177, 173, 173);
+}

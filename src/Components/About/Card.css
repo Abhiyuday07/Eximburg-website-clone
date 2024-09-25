@@ -1,0 +1,36 @@
+/* Styles for the Card component */
+.cards-container {
+  background-color:#e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.card {
+  background-color:whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  width: calc(30% - 30px);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-content {
+  font-size: 1rem;
+  color: #555;
+}

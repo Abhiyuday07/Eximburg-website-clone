@@ -1,0 +1,35 @@
+.brands-container {
+    background: url('https://www.eximburg.com/static/media/banner-bg-8.15ab226e98719a3e5246.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+    .brands-content {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .brands-content h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  .brands-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #ff9900; 
+  }
+    @media screen and (max-width: 768px) {
+    .brands-content h2 {
+      font-size: 2rem;
+    }
+  
+    .brands-content h1 {
+      font-size: 4rem;
+    }
+  }
+  

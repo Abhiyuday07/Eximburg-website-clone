@@ -1,0 +1,42 @@
+.para-container {
+    width: 60%; 
+    margin-left: 9%; 
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    line-height: 1.6;
+  }
+  
+  .main-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #006d5b;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-paragraph {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sub-heading {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #006d5b; 
+    margin-bottom: 0.75rem;
+  }
+  
+  ul {
+    margin-left: 20px;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  strong {
+    color: #2c3e50;
+  }
+  

@@ -1,0 +1,29 @@
+.about-us-container {
+    height: 100vh;
+    background-image: url('https://www.eximburg.com/static/media/banner-bg-4.1b1077e7bb778825f32a.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .about-us-content {
+    text-align: center;
+  }
+  
+  .about-us-heading {
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .about-us-subheading {
+    font-size: 6rem;
+    color: #ff8c00; 
+    margin-top: 40px;
+    letter-spacing: 4px;
+  }
+  
